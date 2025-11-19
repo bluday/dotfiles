@@ -1,6 +1,7 @@
 local indent_width = 4
 
 vim.opt.background = dark
+vim.opt.fileformat = 'unix'
 vim.opt.number = true
 vim.opt.swapfile = false
 vim.opt.termguicolors = true
