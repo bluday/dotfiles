@@ -19,6 +19,7 @@ require("nvim-tree").setup {
     sort = {
         sorter = "case_sensitive" 
     },
+    sync_root_with_cwd = true,
     view = {
         width = 32,
         side = "left",
