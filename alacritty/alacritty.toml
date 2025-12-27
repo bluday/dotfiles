@@ -16,7 +16,7 @@ white   = "#ffffff"
 style = { shape = "Beam", blinking = "Never" }
 
 [font]
-size = 8.5
+size = 9
 
 [window]
 opacity = 0.8
