@@ -11,11 +11,11 @@ require("bufferline").setup {
             {
                 filetype = "NvimTree",
                 text_align = "left",
-                separator = true
+                separator = false
             }
         },
         separator_style = "thin",
-        themable = false,
+        themable = true,
         truncate_names = true
     }
 }
