@@ -1,0 +1,4 @@
+android-studio
+localsend-bin
+rustdesk
+signal-desktop
