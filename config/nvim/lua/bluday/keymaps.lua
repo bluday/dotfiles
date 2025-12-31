@@ -1,22 +1,20 @@
-local telescope_builtin = require("telescope.builtin")
-
-local defaults = { noremap = true, silent = true }
-
 local map = vim.keymap.set
 
-map("n", "<Space>", "<Nop>", defaults)
+local telescope_builtin = require("telescope.builtin")
 
-map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", defaults)
+map("n", "<Space>",   "<Nop>")
+map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>")
+map("n", "<leader>ff", telescope_builtin.find_files)
+map("n", "<leader>t", "<cmd>term<CR>")
+map("n", "<leader>x", "<cmd>qa!<CR>")
+map("n", "<leader>z", "<cmd>ZenMode<CR")
+map("n", "<Tab>",     "<cmd>bn<CR>")
+map("n", "<S-Tab>",   "<cmd>bp<CR>")
 
-map("n", "<leader>ff", telescope_builtin.find_files, defaults)
+map("t", "<leader>t", "<C-\\><C-n>")
 
-map("n", "<leader>t", "<cmd>term<CR>", defaults)
-
-map("n", "<leader>x", "<cmd>qa!<CR>", defaults)
-
-map("n", "<leader>z", "<cmd>ZenMode<CR>", defaults)
-
-map("n", "<Tab>",   "<cmd>bn<CR>", defaults)
-map("n", "<S-Tab>", "<cmd>bp<CR>", defaults)
-
-map("t", "<leader>t", "<C-\\><C-n>", defaults)
+if vim.g.neovide then
+    map({ "n", "v" }, "<C-+>", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor + 0.1<CR>")
+    map({ "n", "v" }, "<C-->", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor - 0.1<CR>")
+    map({ "n", "v" }, "<C-0>", ":lua vim.g.neovide_scale_factor = 1<CR>")
+end

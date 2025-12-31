@@ -1,4 +1,4 @@
-local indent_width = 4
+local INDENT_WIDTH = 4
 
 vim.o.background    = dark
 vim.o.fileformat    = "unix"
@@ -12,12 +12,10 @@ vim.opt.fillchars:append {
     vert = " "
 }
 
--- Tabs versus spaces
 vim.o.expandtab  = true
-vim.o.shiftwidth = indent_width
-vim.o.tabstop    = indent_width
+vim.o.shiftwidth = INDENT_WIDTH
+vim.o.tabstop    = INDENT_WIDTH
 
--- Neovide
 if vim.g.neovide then
     vim.g.neovide_floating_shadow      = false
     vim.g.neovide_remember_window_size = true
