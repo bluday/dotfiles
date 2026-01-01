@@ -32,6 +32,7 @@ libmtp
 libnewt
 libreoffice
 llvm
+loupe
 lvm2
 mako
 man
@@ -48,6 +49,7 @@ noto-fonts-cjk
 noto-fonts-emoji
 nvidia-open-dkms
 otf-firamono-nerd
+papers
 pipewire
 pipewire-alsa
 pipewire-pulse
@@ -57,10 +59,11 @@ python3
 qbittorrent
 qemu-full
 rust
+showtime
+snapshot
 steam
 stellarium
 thunar
-thunderbird
 torbrowser-launcher
 ttf-envycoder-nerd
 uwsm
