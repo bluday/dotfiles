@@ -13,6 +13,7 @@ curl
 dnsmasq
 docker
 fastfetch
+ffmpegthumbnailer
 firefox-developer-edition
 git
 gnome-tweaks
@@ -66,6 +67,7 @@ stellarium
 thunar
 torbrowser-launcher
 ttf-envycoder-nerd
+tumbler
 uwsm
 virt-manager
 vlc
