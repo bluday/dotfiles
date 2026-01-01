@@ -1,0 +1,99 @@
+:root {
+    --accent-color-primary: #0038eb;
+
+    --bar-border-color: #1e1e1eff;
+    --bar-border-height: 0;
+    --bar-padding: 4px;
+
+    --bg-color-primary: #080808bb;
+    --bg-color-secondary: #1e1e1e;
+    --bg-color-tertiary: #282828;
+
+    --button-margin-left: 4px;
+    --button-padding: 2px;
+
+    --element-bg-color-hover: #44444444;
+    --element-min-width: 24px;
+    --element-padding: 2px;
+
+    --fg-color-primary: #fff;
+    --fg-color-secondary: #888;
+
+    --border-radius-primary: 8px;
+    --border-radius-secondary: 4px;
+}
+
+* {
+    background-image: none;
+    border: none;
+    box-shadow: none;
+
+    font-family: sans;
+    font-size: 14px;
+}
+
+.background {
+    background-color: transparent;
+}
+
+.clock {
+    padding: 2px 8px;
+}
+
+.menu label {
+    font-weight: normal;
+}
+
+.clock, .workspaces .item {
+    font-weight: bold;
+}
+
+.workspaces .item label {
+    color: var(--fg-color-secondary);
+}
+
+.workspaces .item.focused label {
+    color: var(--fg-color-primary);
+}
+
+#bar {
+    background-color: var(--bg-color-primary);
+
+    border-bottom: var(--bar-border-height) solid;
+    border-color: var(--bar-border-color);
+
+    padding: var(--bar-padding);
+}
+
+box, button, label {
+    color: var(--fg-color-primary);
+}
+
+button {
+    border-radius: var(--border-radius-primary);
+
+    min-width: var(--element-min-width);
+
+    padding: var(--element-padding);
+}
+
+button:hover {
+    background-color: var(--element-bg-color-hover);
+}
+
+calendar {
+    background-color: var(--bg-color-tertiary);
+
+    border-radius: var(--border-radius-secondary);
+}
+
+label {
+    text-align: center;
+}
+
+popover, popover contents {
+    background-color: var(--bg-color-secondary);
+
+    border-radius: var(--border-radius-primary);
+}
+

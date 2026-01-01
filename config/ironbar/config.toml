@@ -1,0 +1,28 @@
+position = "top"
+
+height = 28
+
+[[center]]
+type = "clock"
+
+format = "%H:%M"
+
+[[end]]
+type = "battery"
+show_if = "[ -f /sys/class/power_supply/BAT0 ]"
+
+[[end]]
+icon_size = 18
+
+type = "tray"
+
+# [[end]]
+# type = "notifications"
+
+[[start]]
+type = "workspaces"
+
+# [[start]]
+# icon_size = 18
+
+# type = "launcher"
