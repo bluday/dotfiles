@@ -7,8 +7,11 @@
 
     --bg-color-primary: #080808bb;
     --bg-color-secondary: #1e1e1e;
-    --bg-color-tertiary: #282828;
+    --bg-color-tertiary: #262626;
 
+    --button-border-color-focus: var(--accent-color-primary);
+    --button-border-color-normal: transparent;
+    --button-border-width: 2px;
     --button-margin-left: 4px;
     --button-padding: 2px;
 
@@ -18,6 +21,8 @@
 
     --fg-color-primary: #fff;
     --fg-color-secondary: #888;
+
+    --font-size-primary: 14px;
 
     --border-radius-primary: 8px;
     --border-radius-secondary: 4px;
@@ -29,7 +34,7 @@
     box-shadow: none;
 
     font-family: sans;
-    font-size: 14px;
+    font-size: var(--font-size-primary);
 }
 
 .background {
@@ -75,6 +80,8 @@ button {
     min-width: var(--element-min-width);
 
     padding: var(--element-padding);
+
+    transition: background-color 0.1s;
 }
 
 button:hover {
@@ -88,7 +95,7 @@ calendar {
 }
 
 label {
-    text-align: center;
+    line-height: var(--font-size-primary);
 }
 
 popover, popover contents {
