@@ -10,6 +10,7 @@ bluez-utils
 clang
 cryptsetup
 curl
+dmidecode
 dnsmasq
 docker
 fastfetch
@@ -64,10 +65,12 @@ showtime
 snapshot
 steam
 stellarium
+swtpm
 thunar
 torbrowser-launcher
 ttf-envycoder-nerd
 tumbler
+upower
 uwsm
 virt-manager
 vlc
