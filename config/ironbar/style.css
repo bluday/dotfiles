@@ -13,11 +13,11 @@
     --button-border-color-normal: transparent;
     --button-border-width:        2px;
     --button-margin-left:         4px;
-    --button-padding:             2px;
+    --button-padding:             2px 6px;
 
-    --element-bg-color-hover:      #50505050;
-    --element-padding:             2px 6px;
-    --element-transition-duration: 0.25s;
+    --widget-bg-color-hover:      #50505050;
+    --widget-separator-margin:    4px;
+    --widget-transition-duration: 0.25s;
 
     --fg-color-primary:   #fff;
     --fg-color-secondary: #888;
@@ -71,6 +71,10 @@
     padding: var(--bar-padding);
 }
 
+box button:not(:first-child) {
+    margin-left: var(--widget-separator-margin);
+}
+
 box, button, label {
     color: var(--fg-color-primary);
 }
@@ -78,13 +82,13 @@ box, button, label {
 button {
     border-radius: var(--border-radius-primary);
 
-    padding: var(--element-padding);
+    padding: var(--button-padding);
 
-    transition: background-color var(--element-transition-duration);
+    transition: background-color var(--widget-transition-duration);
 }
 
 button:hover {
-    background-color: var(--element-bg-color-hover);
+    background-color: var(--widget-bg-color-hover);
 }
 
 calendar {
