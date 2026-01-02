@@ -6,11 +6,11 @@ require("nvim-tree").setup {
         icons = {
             web_devicons = {
                 file = {
-                    color = false,
+                    color = true,
                     enable = true
                 },
                 folder = {
-                    color = false,
+                    color = true,
                     enable = true
                 }
             }
@@ -21,8 +21,8 @@ require("nvim-tree").setup {
     },
     sync_root_with_cwd = true,
     view = {
-        width = 32,
         side = "left",
-        signcolumn = "no"
+        signcolumn = "no",
+        width = 32
     },
 }
