@@ -5,10 +5,16 @@ height = 28
 [[center]]
 type = "clock"
 
-format = "%H:%M"
+# format = "%H:%M"
+# format = "%H:%M:%S"
+# format = "%Y %B%e — %H:%M"
+format = "%Y-%m-%d %H:%M"
+# format = "%Y-%m-%d %H:%M:%S"
+# format = "%Y-%m-%d %H:%M:%S.%s"
 
 [[end]]
 type = "battery"
+
 show_if = "[ -f /sys/class/power_supply/BAT0 ]"
 
 [[end]]
@@ -16,13 +22,5 @@ icon_size = 18
 
 type = "tray"
 
-# [[end]]
-# type = "notifications"
-
 [[start]]
 type = "workspaces"
-
-# [[start]]
-# icon_size = 18
-
-# type = "launcher"
