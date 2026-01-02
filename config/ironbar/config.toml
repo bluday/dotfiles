@@ -2,6 +2,8 @@ height = 28
 
 justify = "center"
 
+orientation = "horizontal"
+
 position = "bottom"
 
 [[center]]
@@ -14,10 +16,25 @@ format = "%Y-%m-%d %H:%M"
 # format = "%Y-%m-%d %H:%M:%S"
 # format = "%Y-%m-%d %H:%M:%S.%s"
 
-[[end]]
-type = "battery"
+# [[end]]
+# icon_size = 18
 
-show_if = "[ -f /sys/class/power_supply/BAT0 ]"
+# type = "network_manager"
+
+# [[end]]
+# icon_size = 18
+
+#type = "bluetooth"
+
+# [[end]]
+# icon_size = 18
+
+# type = "volume"
+
+[[end]]
+icon_size = 18
+
+type = "battery"
 
 [[end]]
 icon_size = 18
@@ -26,3 +43,8 @@ type = "tray"
 
 [[start]]
 type = "workspaces"
+
+# [[start]]
+# icon_size = 18
+
+# type = "launcher"

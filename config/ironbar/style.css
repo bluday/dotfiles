@@ -38,6 +38,7 @@
 
     font-family: sans;
     font-size: var(--font-size-primary);
+    font-weight: bold;
 }
 
 .background {
@@ -52,10 +53,6 @@
 
 .menu label {
     font-weight: normal;
-}
-
-.clock, .workspaces .item {
-    font-weight: bold;
 }
 
 .workspaces .item label {
