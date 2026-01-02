@@ -1,6 +1,8 @@
-position = "bottom"
-
 height = 28
+
+justify = "center"
+
+position = "bottom"
 
 [[center]]
 type = "clock"

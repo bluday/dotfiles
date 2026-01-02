@@ -19,7 +19,7 @@
 
     --element-bg-color-hover:      #50505050;
     --element-min-width:           24px;
-    --element-padding:             2px;
+    --element-padding:             2px 6px;
     --element-transition-duration: 0.25s;
 
     --fg-color-primary:   #fff;
@@ -80,7 +80,6 @@ box, button, label {
 }
 
 box, button, label, picture {
-    min-width: var(--element-min-width);
 }
 
 button {
