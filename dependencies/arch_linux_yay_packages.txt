@@ -1,4 +1,5 @@
 android-studio
+gapless
 localsend-bin
 rustdesk
 signal-desktop
