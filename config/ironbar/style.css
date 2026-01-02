@@ -79,10 +79,12 @@ box, button, label {
     color: var(--fg-color-primary);
 }
 
+box, button, label, picture {
+    min-width: var(--element-min-width);
+}
+
 button {
     border-radius: var(--border-radius-primary);
-
-    min-width: var(--element-min-width);
 
     padding: var(--element-padding);
 
@@ -108,4 +110,3 @@ popover, popover contents {
 
     border-radius: var(--border-radius-primary);
 }
-
