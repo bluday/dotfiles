@@ -49,7 +49,7 @@ nix
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
-nvidia-open-dkms
+nvidia-open
 otf-firamono-nerd
 papers
 pipewire
