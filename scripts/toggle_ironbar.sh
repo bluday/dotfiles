@@ -1,9 +1,5 @@
 #!/bin/sh
 
-if [ ! -z `pidof ironbar` ]; then
-    killall ironbar && exit
-fi
+pidof ironbar && killall ironbar && exit
 
-ironbar &
-
-disown
+ironbar > /dev/null 2>&1 &
