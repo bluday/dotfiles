@@ -5,7 +5,7 @@ background-color=#1e1e1eff
 border-color=#323232ff
 border-radius=2
 
-# default-timeout=4000
+default-timeout=5000
 
 font=Sans 10
 
