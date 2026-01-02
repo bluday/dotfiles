@@ -2,16 +2,16 @@ require("bufferline").setup {
     options = {
         color_icons = false,
         hover = {
-            enabled = true,
             delay = 200,
+            enabled = true,
             reveal = { "close" }
         },
         mode = "buffers",
         offsets = {
             {
                 filetype = "NvimTree",
-                text_align = "left",
-                separator = false
+                separator = false,
+                text_align = "left"
             }
         },
         separator_style = "thin",
