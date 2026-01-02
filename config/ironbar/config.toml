@@ -34,12 +34,12 @@ format = "%Y-%m-%d %H:%M"
 [[end]]
 icon_size = 18
 
-type = "battery"
+type = "tray"
 
 [[end]]
-icon_size = 18
+icon_size = 16
 
-type = "tray"
+type = "battery"
 
 [[start]]
 type = "workspaces"
