@@ -11,7 +11,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     })
 
     if vim.v.shell_error ~= 0 then
-        vim.api.nvim_echo({{"Error:\n", "ErrorMsg"}}, true, {})
+        vim.api.nvim_echo({ { "Error:\n", "ErrorMsg" } }, true, {})
 
         vim.fn.getchar()
 

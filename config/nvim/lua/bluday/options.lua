@@ -16,6 +16,9 @@ vim.o.expandtab  = true
 vim.o.shiftwidth = INDENT_WIDTH
 vim.o.tabstop    = INDENT_WIDTH
 
+vim.g.loaded_netrw       = 1
+vim.g.loaded_netrwPlugin = 1
+
 if vim.g.neovide then
     vim.g.neovide_floating_shadow      = false
     vim.g.neovide_remember_window_size = true
