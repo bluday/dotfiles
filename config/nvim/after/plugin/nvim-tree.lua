@@ -3,15 +3,15 @@ require("nvim-tree").setup {
         icons = {
             web_devicons = {
                 file = {
-                    color = true,
+                    color = false,
                     enable = true
                 },
                 folder = {
-                    color = true,
+                    color = false,
                     enable = true
                 }
             }
-        },
+        }
     },
     sort = {
         sorter = "case_sensitive" 
