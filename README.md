@@ -4,7 +4,7 @@ My personal dotfiles, used for my _Arch Linux_ installation. Works with other Li
 
 ### Usage
 
-Install all of the dependencies listed in the files in the `dependencies` directory, and then symlink the following files and directories to the following paths:
+Install all of the packages listed in the files in the `packages` directory, and then symlink the following files and directories to the following paths:
 
 * `$HOME`
   - `.bashrc`
