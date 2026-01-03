@@ -3,11 +3,13 @@ allow_markup = true
 
 fork = true
 
+height = 200
+
 image_size = 24
 
 insensitive = true
 
-height = 200
+lines = 6
 
 normal_window = true
 
