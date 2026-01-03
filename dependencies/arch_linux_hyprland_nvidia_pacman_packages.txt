@@ -61,6 +61,7 @@ python3
 qbittorrent
 qemu-full
 rust
+rust-analyzer
 showtime
 snapshot
 steam
