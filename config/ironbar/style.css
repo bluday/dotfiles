@@ -1,9 +1,7 @@
 :root {
     --accent-color-primary: #0038eb;
 
-    --bar-border-color:  #1e1e1eff;
-    --bar-border-height: 0;
-    --bar-padding:       4px;
+    --bar-padding: 4px;
 
     --bg-color-primary:   #111111bb;
     --bg-color-secondary: #1e1e1e;
@@ -30,11 +28,13 @@
 
 * {
     background-image: none;
+    
     border: none;
+
     box-shadow: none;
 
     font-family: sans;
-    font-size: var(--font-size-primary);
+    font-size:   var(--font-size-primary);
     font-weight: bold;
 }
 
@@ -64,9 +64,6 @@
 
 #bar {
     background-color: var(--bg-color-primary);
-
-    border-bottom: var(--bar-border-height) solid;
-    border-color: var(--bar-border-color);
 
     padding: var(--bar-padding);
 }
