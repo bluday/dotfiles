@@ -1,0 +1,52 @@
+* {
+    border: none;
+    box-shadow: none;
+
+    color: #fff;
+
+    font-family: sans;
+    font-size:   14px;
+    font-weight: normal;
+}
+
+#entry {
+    outline: none;
+
+    padding: 8px;
+}
+
+#img {
+    margin-right: 8px;
+}
+
+#inner-box {}
+
+#input {
+    background: transparent;
+
+    margin: 4px;
+
+    padding: 0 8px;
+}
+
+#entry:selected {
+    font-weight: bold;
+}
+
+#outer-box {}
+
+#scroll {}
+
+#text {}
+
+#window {
+    /* #1e1e1e
+     *
+     * 1E = 30
+     *
+     * BB ~= 0.7333
+     */
+    background-color: rgba(30, 30, 30, 0.7333);
+
+    padding: 2px;
+}
