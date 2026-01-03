@@ -1,8 +1,8 @@
 anchor=bottom-right
 
-background-color=#1e1e1eff
+background-color=#1e1e1ebb
 
-border-color=#323232ff
+border-color=#323232bb
 border-radius=2
 
 default-timeout=5000
