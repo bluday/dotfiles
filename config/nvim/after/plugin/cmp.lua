@@ -1,11 +1,13 @@
 local cmp = require("cmp")
 
+cmp.register_source(
+    "easy-dotnet",
+    require("easy-dotnet").package_completion_source
+)
+
 cmp.setup {
     snippet = {
         expand = function(args)
-            -- vim.fn["vsnip#anonymous"](args.body)
-
-            -- For native neovim snippets (Neovim v0.10+)
             vim.snippet.expand(args.body)
         end
     },
@@ -27,8 +29,9 @@ cmp.setup {
     }),
     sources = cmp.config.sources(
         {
-            { name = "nvim_lsp" }
-            -- { name = "vsnip" }
+            { name = "nvim_lsp" },
+            { name = "luasnip" },
+            { name = "easy-dotnet" }
         },
         {
             { name = "buffer" }
