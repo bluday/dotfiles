@@ -51,6 +51,7 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 nvidia-open
+obs
 otf-firamono-nerd
 papers
 pipewire
@@ -74,6 +75,7 @@ ttf-envycoder-nerd
 tumbler
 upower
 uwsm
+v4l2loopback-dkms
 virt-manager
 vlc
 waydroid
@@ -84,3 +86,4 @@ wireshark-cli
 wireshark-qt
 wl-clipboard
 wofi
+xdg-desktop-portal-hyprland
