@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set_default_application() { xdg-mime default "$1" "$2" }
+set_default_application() { xdg-mime default "$1" "$2"; }
 
 # Audio
 set_default_application org.gnome.Decibels.desktop audio/mpeg
@@ -14,4 +14,4 @@ set_default_application neovide.desktop text/plain
 set_default_application neovide.desktop text/markdown
 
 # Video
-set_default_application xdg-mime default showtime.desktop video/mp4
+set_default_application showtime.desktop video/mp4
