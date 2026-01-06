@@ -16,21 +16,6 @@ format = "%Y-%m-%d %H:%M"
 # format = "%Y-%m-%d %H:%M:%S"
 # format = "%Y-%m-%d %H:%M:%S.%s"
 
-# [[end]]
-# icon_size = 18
-
-# type = "network_manager"
-
-# [[end]]
-# icon_size = 18
-
-#type = "bluetooth"
-
-# [[end]]
-# icon_size = 18
-
-# type = "volume"
-
 [[end]]
 icon_size = 18
 
@@ -43,8 +28,3 @@ type = "battery"
 
 [[start]]
 type = "workspaces"
-
-# [[start]]
-# icon_size = 18
-
-# type = "launcher"
