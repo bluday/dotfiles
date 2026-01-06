@@ -1,4 +1,4 @@
-local constants = require("constants")
+local INDENT_WIDTH = 4
 
 vim.o.background    = dark
 vim.o.fileformat    = "unix"
@@ -13,8 +13,8 @@ vim.opt.fillchars:append {
 }
 
 vim.o.expandtab  = true
-vim.o.shiftwidth = constants.INDENT_WIDTH
-vim.o.tabstop    = constants.INDENT_WIDTH
+vim.o.shiftwidth = INDENT_WIDTH
+vim.o.tabstop    = INDENT_WIDTH
 
 vim.g.loaded_netrw       = 1
 vim.g.loaded_netrwPlugin = 1

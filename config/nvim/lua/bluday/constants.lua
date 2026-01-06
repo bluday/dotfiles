@@ -1,1 +1,0 @@
-local INDENT_WIDTH = 4
