@@ -50,8 +50,12 @@ nix
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
-nvidia-open
+nvidia-open-dkms
+nvidia-utils
 obs-studio
+opencl-headers
+opencl-mesa
+opencl-nvidia
 otf-firamono-nerd
 papers
 pipewire
@@ -61,7 +65,7 @@ podman
 proton-vpn-gtk-app
 python3
 qbittorrent
-qemu-full
+qemu-base
 rust
 rust-analyzer
 showtime
@@ -76,7 +80,6 @@ tumbler
 upower
 uwsm
 v4l2loopback-dkms
-virt-manager
 vlc
 waydroid
 wget
