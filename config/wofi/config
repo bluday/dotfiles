@@ -3,13 +3,13 @@ allow_markup = true
 
 fork = true
 
-height = 200
+height = 400
 
 image_size = 24
 
 insensitive = true
 
-lines = 7
+# lines = 8
 
 normal_window = true
 
@@ -17,4 +17,4 @@ prompt = Search for application
 
 show = drun
 
-width = 600
+width = 700
