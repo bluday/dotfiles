@@ -3,5 +3,3 @@ require("github-theme").setup {
         theme_style = "dark"
     }
 }
-
--- vim.cmd.colorscheme "github_dark"
