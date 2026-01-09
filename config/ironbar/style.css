@@ -7,24 +7,27 @@
     --bg-color-secondary: #1e1e1e;
     --bg-color-tertiary:  #262626;
 
+    --border-radius-primary:   4px;
+    --border-radius-secondary: 2px;
+
+    --border-width: 1px;
+
     --button-border-color-focus:  var(--accent-color-primary);
     --button-border-color-normal: transparent;
+    --button-border-radius:       8px;
     --button-border-width:        2px;
-    --button-margin-left:         2px;
+    --button-margin-left:         0;
     --button-padding:             2px;
     --button-size:                24px;
-
-    --widget-bg-color-hover:      #50505050;
-    --widget-separator-margin:    4px;
-    --widget-transition-duration: 0.25s;
-
+    
     --fg-color-primary:   #fff;
     --fg-color-secondary: #888;
 
     --font-size-primary: 14px;
 
-    --border-radius-primary:   8px;
-    --border-radius-secondary: 4px;
+    --widget-bg-color-hover:      #50505050;
+    --widget-separator-margin:    4px;
+    --widget-transition-duration: 0.25s;
 }
 
 * {
@@ -92,7 +95,7 @@ box, button, label {
 }
 
 button {
-    border-radius: var(--border-radius-primary);
+    border-radius: var(--button-border-radius);
 
     padding: var(--button-padding);
 
@@ -122,8 +125,14 @@ label {
     line-height: var(--font-size-primary);
 }
 
-popover, popover contents {
+popover {
+    background-color: var(--bg-color-primary);
+}
+
+popover contents {
     background-color: var(--bg-color-secondary);
+
+    border: var(--border-width) solid var(--bg-color-tertiary);
 
     border-radius: var(--border-radius-primary);
 }
