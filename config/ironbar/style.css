@@ -129,10 +129,6 @@ label {
     line-height: var(--font-size-primary);
 }
 
-popover {
-    background-color: var(--bg-color-primary);
-}
-
 popover arrow {
     background-color: var(--bg-color-tertiary);
 }
