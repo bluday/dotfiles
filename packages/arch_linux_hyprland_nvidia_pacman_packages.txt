@@ -37,6 +37,7 @@ libreoffice
 llvm
 loupe
 lvm2
+lua-language-server
 mako
 man
 mpd
@@ -63,6 +64,7 @@ pipewire-alsa
 pipewire-pulse
 podman
 proton-vpn-gtk-app
+python-lsp-server
 python3
 qbittorrent
 qemu-base
