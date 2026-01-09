@@ -2,7 +2,7 @@ require("bufferline").setup {
     options = {
         color_icons = false,
         hover = {
-            delay = 200,
+            delay = 0,
             enabled = true,
             reveal = { "close" }
         },
@@ -14,8 +14,8 @@ require("bufferline").setup {
                 text_align = "left"
             }
         },
-        separator_style = "thin",
-        themable = true,
+        separator_style = "slant",
+        themable = false,
         truncate_names = true
     }
 }
