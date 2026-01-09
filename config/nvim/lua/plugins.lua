@@ -4,10 +4,9 @@ return {
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
 
-    -- UI / themes
+    -- Themes
     "projekt0n/github-nvim-theme",
     "Mofiqul/vscode.nvim",
-    "xiyaowong/transparent.nvim",
 
     -- Completion & snippets
     "hrsh7th/vim-vsnip",
@@ -35,11 +34,11 @@ return {
     "nvim-tree/nvim-tree.lua",
     "nvim-lualine/lualine.nvim",
     "akinsho/bufferline.nvim",
+    "folke/zen-mode.nvim",
 
     -- Git
     "tpope/vim-fugitive",
 
-    -- Terminal / UX
-    "akinsho/toggleterm.nvim",
-    "folke/zen-mode.nvim"
+    -- Terminal
+    "akinsho/toggleterm.nvim"
 }
