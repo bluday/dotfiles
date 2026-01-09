@@ -7,8 +7,8 @@
     --bg-color-secondary: #1e1e1e;
     --bg-color-tertiary:  #262626;
 
-    --border-radius-primary:   4px;
-    --border-radius-secondary: 2px;
+    --border-radius-primary:   8px;
+    --border-radius-secondary: 4px;
 
     --border-width: 1px;
 
@@ -65,6 +65,8 @@
 }
 
 .day-number.today {
+    background-color: var(--accent-color-primary);
+
     color: var(--fg-color-primary);
 }
 
@@ -102,7 +104,7 @@ button {
     transition: background-color var(--widget-transition-duration);
 }
 
-button:hover {
+button:hover, .flat:hover, separator {
     background-color: var(--widget-bg-color-hover);
 }
 
@@ -117,8 +119,10 @@ button > box > box > picture {
 
 calendar {
     background-color: var(--bg-color-tertiary);
+}
 
-    border-radius: var(--border-radius-secondary);
+calendar, popover contents {
+    border-radius: var(--border-radius-primary);
 }
 
 label {
@@ -129,10 +133,16 @@ popover {
     background-color: var(--bg-color-primary);
 }
 
+popover arrow {
+    background-color: var(--bg-color-tertiary);
+}
+
 popover contents {
     background-color: var(--bg-color-secondary);
 
     border: var(--border-width) solid var(--bg-color-tertiary);
+}
 
-    border-radius: var(--border-radius-primary);
+separator {
+    opacity: 0.8;
 }
