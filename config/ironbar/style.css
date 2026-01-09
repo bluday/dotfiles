@@ -47,12 +47,26 @@
     padding: 2px 8px;
 }
 
-.menu label {
-    font-weight: normal;
+.calendar-clock {
+    font-size: 16px;
+
+    margin-bottom: 8px;
+
+    padding: 4px;
+
+    min-width: 64px;
 }
 
-.workspaces .item label {
+.day-number, .workspaces .item label {
     color: var(--fg-color-secondary);
+}
+
+.day-number.today {
+    color: var(--fg-color-primary);
+}
+
+.menu label {
+    font-weight: normal;
 }
 
 .workspaces .item.focused label {
@@ -77,11 +91,6 @@ box, button, label {
     color: var(--fg-color-primary);
 }
 
-button, picture {
-    min-height: var(--button-size);
-    min-width:  var(--button-size);
-}
-
 button {
     border-radius: var(--border-radius-primary);
 
@@ -92,6 +101,15 @@ button {
 
 button:hover {
     background-color: var(--widget-bg-color-hover);
+}
+
+button, picture {
+    min-height: var(--button-size);
+    min-width:  var(--button-size);
+}
+
+button > box > box > picture {
+    min-width: 0;
 }
 
 calendar {
