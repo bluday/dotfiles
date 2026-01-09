@@ -15,9 +15,10 @@ options.wrap          = false
 options.fillchars:append({ vert = " " })
 
 -- Spaces versus tabs
-options.expandtab  = true
-options.shiftwidth = INDENT_WIDTH
-options.tabstop    = INDENT_WIDTH
+options.expandtab   = true
+options.shiftwidth  = INDENT_WIDTH
+options.softtabstop = INDENT_WIDTH
+options.tabstop     = INDENT_WIDTH
 
 -- Disable netrw in favor of `nvim-tree`
 global.loaded_netrw       = 1
