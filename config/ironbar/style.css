@@ -10,8 +10,9 @@
     --button-border-color-focus:  var(--accent-color-primary);
     --button-border-color-normal: transparent;
     --button-border-width:        2px;
-    --button-margin-left:         4px;
-    --button-padding:             2px 6px;
+    --button-margin-left:         2px;
+    --button-padding:             2px;
+    --button-size:                24px;
 
     --widget-bg-color-hover:      #50505050;
     --widget-separator-margin:    4px;
@@ -42,16 +43,12 @@
     background-color: transparent;
 }
 
-.clock {
+.battery, .clock {
     padding: 2px 8px;
 }
 
 .menu label {
     font-weight: normal;
-}
-
-.tray {
-    margin: 0 4px;
 }
 
 .workspaces .item label {
@@ -68,12 +65,21 @@
     padding: var(--bar-padding);
 }
 
-box button:not(:first-child) {
+box revealer:not(:first-child) {
     margin-left: var(--widget-separator-margin);
+}
+
+box button:not(:first-child) {
+    margin-left: var(--button-margin-left);
 }
 
 box, button, label {
     color: var(--fg-color-primary);
+}
+
+button, picture {
+    min-height: var(--button-size);
+    min-width:  var(--button-size);
 }
 
 button {
