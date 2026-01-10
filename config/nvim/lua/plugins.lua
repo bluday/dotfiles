@@ -11,19 +11,15 @@ return {
 
     -- Completion & snippets
     "hrsh7th/vim-vsnip",
-    "L3MON4D3/LuaSnip",
     "hrsh7th/nvim-cmp",
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/cmp-buffer",
     "hrsh7th/cmp-path",
     "hrsh7th/cmp-cmdline",
     "hrsh7th/cmp-vsnip",
-    "onsails/lspkind.nvim",
-
-    -- LSP / language tooling
     "neovim/nvim-lspconfig",
-    "mrcjkb/rustaceanvim",
-    "GustavEikaas/easy-dotnet.nvim",
+    "onsails/lspkind.nvim",
+    "mason-org/mason.nvim",
 
     -- Debugging
     "mfussenegger/nvim-dap",
