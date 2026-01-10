@@ -14,7 +14,7 @@ require("bufferline").setup {
                 text_align = "left"
             }
         },
-        separator_style = "slant",
+        separator_style = "thin",
         themable = false,
         truncate_names = true
     }
