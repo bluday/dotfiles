@@ -119,10 +119,10 @@ button > box > box > picture {
 
 calendar {
     background-color: var(--bg-color-tertiary);
-}
 
-calendar, popover contents {
-    border-radius: var(--border-radius-primary);
+    border-radius: var(--border-radius-secondary);
+
+    padding: 4px;
 }
 
 label {
@@ -137,6 +137,8 @@ popover contents {
     background-color: var(--bg-color-secondary);
 
     border: var(--border-width) solid var(--bg-color-tertiary);
+
+    border-radius: var(--border-radius-primary);
 }
 
 separator {
