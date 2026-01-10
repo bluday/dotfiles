@@ -6,6 +6,7 @@ return {
 
     -- Themes
     "projekt0n/github-nvim-theme",
+    "nordtheme/vim",
     "Mofiqul/vscode.nvim",
 
     -- Completion & snippets
