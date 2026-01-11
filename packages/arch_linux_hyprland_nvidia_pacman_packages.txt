@@ -8,7 +8,9 @@ blender
 bluez
 bluez-utils
 clang
+cmake
 cowsay
+cpio
 cryptsetup
 curl
 dmidecode
@@ -39,6 +41,7 @@ loupe
 lvm2
 mako
 man
+meson
 mpd
 mtpfs
 nasm
