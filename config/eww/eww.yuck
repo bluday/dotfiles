@@ -1,0 +1,14 @@
+(include "./widgets/bottom_bar/main.yuck")
+
+(defwindow bottom_bar_window
+    :exclusive true
+    :geometry (geometry :x "0%"
+                        :y "0%"
+                        :width "100%"
+                        :height "32px"
+                        :anchor "bottom center")
+    :monitor 0
+    :stacking "fg"
+    :windowtype "dock"
+    :wm-ignore false
+    (bottom_bar))

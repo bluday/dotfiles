@@ -1,0 +1,11 @@
+* {
+    border: none;
+
+    box-shadow: none;
+
+    font-family: sans;
+    font-size:   14px;
+    font-weight: bold;
+}
+
+.bottom-bar {}

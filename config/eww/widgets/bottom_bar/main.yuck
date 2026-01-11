@@ -1,0 +1,21 @@
+(include "./widgets/bottom_bar/datetime.yuck")
+
+(defwidget bottom_bar []
+    (box :class "bottom-bar"
+         :halign "stretch"
+         :orientation "h"
+        (box :halign "start"
+             :orientation "h"
+             "1")
+        (box :halign "center"
+             :orientation "h"
+             (datetime))
+        (box :halign "end"
+             :orientation "h"
+             (systray :icon-size 18
+                      :orientation "h"
+                      :prepend-new true
+                      :spacing 4)
+            )
+        )
+    )
