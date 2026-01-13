@@ -1,6 +1,6 @@
 (include "./widgets/bottom_bar/main.yuck")
 
-(defwindow bottom_bar_window
+(defwindow bottom-bar-0
     :exclusive true
     :geometry (geometry :x "0%"
                         :y "0%"
@@ -11,4 +11,4 @@
     :stacking "fg"
     :windowtype "dock"
     :wm-ignore false
-    (bottom_bar))
+    (bottom-bar))

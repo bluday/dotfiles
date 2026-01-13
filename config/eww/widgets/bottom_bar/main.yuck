@@ -1,6 +1,6 @@
 (include "./widgets/bottom_bar/datetime.yuck")
 
-(defwidget bottom_bar []
+(defwidget bottom-bar []
     (box :class "bottom-bar"
          :halign "stretch"
          :orientation "h"
