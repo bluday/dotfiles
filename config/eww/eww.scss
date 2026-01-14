@@ -1,0 +1,17 @@
+$accent-color-0: #0038eb;
+
+$bg-color-primary: #0b0b0b;
+
+$font-size-base: 14px;
+
+* {
+    font-family: sans;
+    font-size:   $font-size-base;
+    font-weight: bold;
+}
+
+.bottom-bar {
+    background: $bg-color-primary;
+
+    padding: 4px;
+}

@@ -2,7 +2,7 @@
 
 (defwidget bottom-bar []
     (box :class "bottom-bar"
-         :halign "stretch"
+         :halign "fill"
          :orientation "h"
         (box :halign "start"
              :orientation "h"
