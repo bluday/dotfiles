@@ -39,6 +39,7 @@ libreoffice
 llvm
 loupe
 lvm2
+lz4
 mako
 man
 meson
