@@ -1,4 +1,4 @@
-(include "./widgets/bottom_bar/main.yuck")
+(include "./widgets/bottom-bar/main.yuck")
 
 (defwindow bottom-bar-0
     :exclusive true

@@ -1,4 +1,4 @@
-(include "./widgets/bottom_bar/datetime.yuck")
+(include "./widgets/bottom-bar/datetime.yuck")
 
 (defwidget bottom-bar []
     (box :class "bottom-bar"
