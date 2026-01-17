@@ -17,4 +17,4 @@ set_default_application neovide.desktop text/markdown
 set_default_application showtime.desktop video/mp4
 
 # Web browser
-xdg-settings set default-web-browser helium.desktop
+xdg-settings set default-web-browser firefox-developer-edition.desktop
