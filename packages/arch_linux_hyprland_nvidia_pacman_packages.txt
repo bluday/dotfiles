@@ -54,8 +54,6 @@ nix
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
-nvidia-open-dkms
-nvidia-utils
 obs-studio
 opencl-headers
 opencl-mesa

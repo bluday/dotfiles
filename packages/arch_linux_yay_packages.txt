@@ -1,5 +1,9 @@
 android-studio
 gapless
+lib32-nvidia-580xx-utils
 localsend-bin
+nvidia-580xx-dkms
+nvidia-580xx-settings
+nvidia-580xx-settings-debug
 rustdesk
 signal-desktop

@@ -1,17 +1,12 @@
-$accent-color-0: #0038eb;
+@use "presets/material-design-3/common/styles/variables.scss";
 
-$bg-color-primary: #0b0b0b;
-
-$font-size-base: 14px;
+@use "presets/material-design-3/widgets/bottom-bar/style.scss" as bottom-bar;
+@use "presets/material-design-3/widgets/power-menu/style.scss" as power-menu;
 
 * {
-    font-family: sans;
-    font-size:   $font-size-base;
-    font-weight: bold;
-}
+  all: unset;
 
-.bottom-bar {
-    background: $bg-color-primary;
-
-    padding: 4px;
+  font-family: sans;
+  font-size:   variables.$font-size-base;
+  font-weight: bold;
 }

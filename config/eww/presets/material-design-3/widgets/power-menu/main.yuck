@@ -1,0 +1,63 @@
+(defvar button_icon_fill_color "#fff")
+(defvar button_icon_size       80)
+(defvar button_size            200)
+(defvar button_spacing         16)
+
+(defvar icons_path "./presets/material-design-3/common/icons/material-symbols")
+
+(defvar exit_icon      "exit_to_app_64dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.svg")
+(defvar lock_icon      "lock_64dp_FFFFFF_FILL1_wght400_GRAD0_opsz48.svg")
+(defvar restart_icon   "restart_alt_64dp_FFFFFF_FILL1_wght400_GRAD0_opsz48.svg")
+(defvar power_off_icon "power_settings_new_64dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.svg")
+
+(defwidget power-menu-action-button [
+    icon
+    ?label
+    ?is_label_visible
+    ?is_power_button
+]
+    (button
+        :class "action-button regular"
+        :halign "center"
+        :height button_size
+        :valign "center"
+        :width button_size
+        (box
+            :halign "center"
+            :orientation "v"
+            :valign "center"
+            :space-evenly false
+            (image
+                :fill-svg button_icon_fill_color
+                :image-height button_icon_size
+                :image-width button_icon_size
+                :path "${icons_path}/${icon}")
+            (label
+                :text label
+                :visible false
+                :wrap-mode "char"))))
+
+(defwidget power-menu []
+    (box
+        :class "power-menu"
+        :hexpand true
+        :vexpand true
+        (box
+            :class "action-button-container"
+            :halign "center"
+            :orientation "h"
+            :spacing button_spacing
+            :valign "center"
+            (power-menu-action-button
+                :icon exit_icon
+                :label "Exit")
+            (power-menu-action-button
+                :icon lock_icon
+                :label "Lock")
+            (power-menu-action-button
+                :icon restart_icon
+                :label "Restart")
+            (power-menu-action-button
+                :icon power_off_icon
+                :is_power_button true
+                :label "Power off"))))

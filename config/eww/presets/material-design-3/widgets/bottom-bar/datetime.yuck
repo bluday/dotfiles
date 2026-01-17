@@ -1,0 +1,9 @@
+(defvar is_datetime_visible true)
+
+(defpoll datetime_value
+    :interval "1s"
+    :run-while is_datetime_visible
+    `date +"%Y-%m-%d %H:%M"`)
+
+(defwidget datetime []
+    (label :text datetime_value))
